@@ -1,0 +1,7 @@
+int main(void) {
+    int temp;
+    x = 72;
+    y = 18;
+    x = x/*comment*/*/******/4;
+    return 0;
+}

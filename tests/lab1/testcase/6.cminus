@@ -1,0 +1,17 @@
+/* Este programa calcula a soma de dois números fornecidos
+
+pelo usuário */
+
+void main(void){
+
+    int x; int y; int RESltado;
+
+    x = input(); /* Este programa calcula a soma de dois números fornecidos
+
+pelo usuário */ y=input();
+
+    resultado = x+y;
+
+    output(resultado);
+
+}

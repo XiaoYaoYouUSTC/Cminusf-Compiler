@@ -1,0 +1,4 @@
+void main(void) {
+    outputFloat(123.4);
+    return;
+}

@@ -1,0 +1,22 @@
+void main(void){
+    int c;
+    int a;
+    int b;
+    int d;
+    int f;
+    int g;
+
+    c=0;
+    a=0;
+    while(c<100000000)
+    {
+        a=1.23456*5.73478*2.3333*4.3673*6.34636;
+        b=a*a*a*a*a*a;
+        d=b*b*b*b*b*b;
+        f=d*d*d*d*d*d;
+        g=f*f*f*f*f*f;
+        c=c+1;
+    }
+    output(g);
+    return ;
+}

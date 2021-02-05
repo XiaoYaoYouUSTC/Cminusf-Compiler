@@ -1,0 +1,15 @@
+void main(void){
+    int i;
+    int idx;
+
+    i = 0;
+    idx = 0;
+
+    while(i < 100000000)
+    {
+        idx = 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 ;
+        i=i+idx*idx*idx*idx*idx*idx*idx*idx/(idx*idx*idx*idx*idx*idx*idx*idx);
+    }
+	output(idx*idx);
+    return ;
+}

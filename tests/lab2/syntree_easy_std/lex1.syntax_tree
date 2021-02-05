@@ -1,0 +1,118 @@
+>--+ program
+|  >--+ declaration-list
+|  |  >--+ declaration
+|  |  |  >--+ fun-declaration
+|  |  |  |  >--+ type-specifier
+|  |  |  |  |  >--* void
+|  |  |  |  >--* main
+|  |  |  |  >--* (
+|  |  |  |  >--+ params
+|  |  |  |  |  >--* void
+|  |  |  |  >--* )
+|  |  |  |  >--+ compound-stmt
+|  |  |  |  |  >--* {
+|  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  |  |  >--+ var-declaration
+|  |  |  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  |  |  >--* int
+|  |  |  |  |  |  |  |  |  >--* x
+|  |  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  |  >--+ var-declaration
+|  |  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  |  >--* int
+|  |  |  |  |  |  |  |  >--* y
+|  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  >--+ var-declaration
+|  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  >--* int
+|  |  |  |  |  |  |  >--* RESltado
+|  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  |  |  |  >--+ expression-stmt
+|  |  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ var
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--* x
+|  |  |  |  |  |  |  |  |  |  |  |  >--* =
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ call
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* input
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* (
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ args
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* )
+|  |  |  |  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  |  |  >--+ expression-stmt
+|  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ var
+|  |  |  |  |  |  |  |  |  |  |  |  >--* y
+|  |  |  |  |  |  |  |  |  |  |  >--* =
+|  |  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ call
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* input
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* (
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ args
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* )
+|  |  |  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  |  >--+ expression-stmt
+|  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  >--+ var
+|  |  |  |  |  |  |  |  |  |  |  >--* resultado
+|  |  |  |  |  |  |  |  |  |  >--* =
+|  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ var
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* x
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ addop
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* +
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ var
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* y
+|  |  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  >--+ expression-stmt
+|  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ call
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* output
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* (
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ args
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ arg-list
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ var
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* resultado
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* )
+|  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  >--* }

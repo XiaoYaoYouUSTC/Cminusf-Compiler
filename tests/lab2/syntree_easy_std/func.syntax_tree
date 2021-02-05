@@ -1,0 +1,70 @@
+>--+ program
+|  >--+ declaration-list
+|  |  >--+ declaration-list
+|  |  |  >--+ declaration
+|  |  |  |  >--+ fun-declaration
+|  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  >--* float
+|  |  |  |  |  >--* foo
+|  |  |  |  |  >--* (
+|  |  |  |  |  >--+ params
+|  |  |  |  |  |  >--+ param-list
+|  |  |  |  |  |  |  >--+ param-list
+|  |  |  |  |  |  |  |  >--+ param
+|  |  |  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  |  |  >--* float
+|  |  |  |  |  |  |  |  |  >--* a
+|  |  |  |  |  |  |  >--* ,
+|  |  |  |  |  |  |  >--+ param
+|  |  |  |  |  |  |  |  >--+ type-specifier
+|  |  |  |  |  |  |  |  |  >--* float
+|  |  |  |  |  |  |  |  >--* b
+|  |  |  |  |  |  |  |  >--* []
+|  |  |  |  |  >--* )
+|  |  |  |  |  >--+ compound-stmt
+|  |  |  |  |  |  >--* {
+|  |  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  |  >--+ return-stmt
+|  |  |  |  |  |  |  |  |  >--* return
+|  |  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--+ integer
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* 1
+|  |  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  |  >--* }
+|  |  >--+ declaration
+|  |  |  >--+ fun-declaration
+|  |  |  |  >--+ type-specifier
+|  |  |  |  |  >--* int
+|  |  |  |  >--* main
+|  |  |  |  >--* (
+|  |  |  |  >--+ params
+|  |  |  |  |  >--* void
+|  |  |  |  >--* )
+|  |  |  |  >--+ compound-stmt
+|  |  |  |  |  >--* {
+|  |  |  |  |  >--+ local-declarations
+|  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  >--+ statement-list
+|  |  |  |  |  |  |  >--* epsilon
+|  |  |  |  |  |  >--+ statement
+|  |  |  |  |  |  |  >--+ return-stmt
+|  |  |  |  |  |  |  |  >--* return
+|  |  |  |  |  |  |  |  >--+ expression
+|  |  |  |  |  |  |  |  |  >--+ simple-expression
+|  |  |  |  |  |  |  |  |  |  >--+ additive-expression
+|  |  |  |  |  |  |  |  |  |  |  >--+ term
+|  |  |  |  |  |  |  |  |  |  |  |  >--+ factor
+|  |  |  |  |  |  |  |  |  |  |  |  |  >--+ integer
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  >--* 0
+|  |  |  |  |  |  |  |  >--* ;
+|  |  |  |  |  >--* }

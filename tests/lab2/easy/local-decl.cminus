@@ -1,0 +1,5 @@
+int main(void) {
+	int i; float j;
+	void v;
+	return 0;
+}
